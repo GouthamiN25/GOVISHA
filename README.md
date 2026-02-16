@@ -1,55 +1,68 @@
-## 🌐 My AI Webpage
+# GOVISHA Studio 👗✨
+**AI-powered luxury fashion design assistant** that turns natural-language garment descriptions into couture-style visual concepts — with multiple illustration modes.
 
-A simple, interactive AI-powered webpage built using modern web technologies. This project demonstrates how to integrate an AI model into a clean front-end interface and build a functional, responsive web application from scratch.
+> “Visualize your vision.”  
+Founded by **Gouthami Nadupuri**
 
-## 🧩 Project Overview
+---
 
-This webpage allows users to interact with an AI assistant in a smooth, minimal UI.
-The goal of the project is to:
+## What it does
+GOVISHA helps users prototype fashion concepts faster by generating style-driven design visuals from:
+- **Design prompt** (fabric, silhouette, movement, details)
+- Optional **reference image**
+- Selected **illustration mode**
 
-Build a real-world AI demo for your portfolio
+---
 
-Practice frontend development with modern tools
+## Key Features
+- **Sketch Studio**: Generate concepts in different modes:
+  - Pencil Sketch
+  - Watercolor Illustration
+  - Runway Photography
+  - Avant-Garde Concept
+  - Technical Flat Sketch
+- **Trends Dashboard**: Explore trend-inspired ideas (UI-ready section)
+- **AI Consultant**: Guidance prompts & concept refinement (UI-ready section)
+- **Collection Builder**: Organize multiple looks into a mini collection (UI-ready section)
 
-Understand API integration and environment configuration
+---
 
-Create a deployable personal AI assistant webpage
+## Tech Stack
+- **React + TypeScript**
+- **Vite**
+- **Gemini API integration**
+- Modern component-driven UI
 
-This project is ideal for showcasing your skills in web development + AI integration + UI design.
+---
 
-## 🛠️ Tech Stack
+## How it works (high-level)
+User Prompt → Prompt Structuring (style conditioning) → Gemini-powered generation → Render output in GOVISHA Studio UI
 
-React
+---
 
-TypeScript
+## Run Locally
+### 1) Install
+```bash
+npm install
 
-Vite
+2) Setup environment
 
-HTML5 / CSS3
+Create a .env.local file:
 
-Fetch-based API calls
+VITE_GEMINI_API_KEY=your_api_key_here
 
-.env.local for secret keys
+3) Start
+npm run dev
 
-Node.js
+Open: http://localhost:3000/ (or the Vite port shown in terminal)
 
-Local dev server (npm run dev)
+Roadmap
 
-## 🎯 Why This Project?
+Prompt enhancement layer (auto-expand garment descriptions)
 
-This webpage was built to:
+Save & export generated designs (history + downloads)
 
-Showcase AI integration into a real front-end application
-
-Demonstrate your ability to work with modern JavaScript frameworks
-
-Build a clean, responsive UI for an AI-driven feature
-
-Add a strong, modern AI project to your GitHub portfolio
-
-Experiment with front-end development, prompt handling, and dynamic components
-
-It’s a simple project on the surface, but it highlights core abilities that companies look for today in AI, frontend, and full-stack roles.
+Deploy public demo (Vercel/Netlify)
 
 ## 📜 License
 License
