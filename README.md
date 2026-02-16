@@ -85,7 +85,7 @@ The author assumes no liability for misuse, misinterpretation, or unauthorized u
 ## 👩‍💻 Author
 Gouthami Nadupuri
 
-Data Scientist | AI Engineer | Creator of CurioGalaxy 💫
+Data Scientist | AI Engineer 
 
 🔗 LinkedIn: https://www.linkedin.com/in/gouthami-nadupuri
 
