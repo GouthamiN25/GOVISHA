@@ -1,68 +1,67 @@
-# GOVISHA Studio 👗✨
-**AI-powered luxury fashion design assistant** that turns natural-language garment descriptions into couture-style visual concepts — with multiple illustration modes.
+## 👗 GOVISHA Studio
+AI-Powered Couture Design Engine
 
-> “Visualize your vision.”  
-Founded by **Gouthami Nadupuri**
+GOVISHA Studio is a vertically focused generative AI application designed to transform natural-language garment descriptions into luxury fashion concept visuals.
 
----
+The system enables rapid ideation by converting structured fashion prompts into stylized design outputs across multiple illustration modes, including pencil sketch, runway photography, avant-garde concept, and technical flat design.
 
-## What it does
-GOVISHA helps users prototype fashion concepts faster by generating style-driven design visuals from:
-- **Design prompt** (fabric, silhouette, movement, details)
-- Optional **reference image**
-- Selected **illustration mode**
+This project explores the intersection of generative AI, prompt engineering, and domain-specific product design within the fashion-tech space.
 
----
+## Overview
 
-## Key Features
-- **Sketch Studio**: Generate concepts in different modes:
-  - Pencil Sketch
-  - Watercolor Illustration
-  - Runway Photography
-  - Avant-Garde Concept
-  - Technical Flat Sketch
-- **Trends Dashboard**: Explore trend-inspired ideas (UI-ready section)
-- **AI Consultant**: Guidance prompts & concept refinement (UI-ready section)
-- **Collection Builder**: Organize multiple looks into a mini collection (UI-ready section)
+GOVISHA Studio aims to reduce the time between concept and visualization for designers, students, and creative teams.
 
----
+The application provides:
+
+Structured garment prompt input
+
+Style-conditioned generation modes
+
+Image generation pipeline integration
+
+Clean, brand-focused user interface
+
+The system demonstrates vertical AI specialization rather than generic text-to-image generation.
 
 ## Tech Stack
-- **React + TypeScript**
-- **Vite**
-- **Gemini API integration**
-- Modern component-driven UI
+
+Frontend:
+
+React
+
+TypeScript
+
+Vite
+
+## AI Integration:
+
+Gemini API (Generative AI)
+
+Prompt structuring & style conditioning
+
+## Architecture:
+
+Component-driven UI
+
+Modular API service layer
+
+Environment-based configuration
+
+## Conclusion:
+
+GOVISHA Studio represents an applied generative AI system tailored for fashion ideation.
+
+## The project highlights:
+
+Domain-aware prompt engineering
+
+AI product thinking
+
+UI/UX integration with generative models
+
+Vertical AI system design
 
 ---
-
-## How it works (high-level)
-User Prompt → Prompt Structuring (style conditioning) → Gemini-powered generation → Render output in GOVISHA Studio UI
-
----
-
-## Run Locally
-### 1) Install
-```bash
-npm install
-
-2) Setup environment
-
-Create a .env.local file:
-
-VITE_GEMINI_API_KEY=your_api_key_here
-
-3) Start
-npm run dev
-
-Open: http://localhost:3000/ (or the Vite port shown in terminal)
-
-Roadmap
-
-Prompt enhancement layer (auto-expand garment descriptions)
-
-Save & export generated designs (history + downloads)
-
-Deploy public demo (Vercel/Netlify)
 
 ## 📜 License
 License
